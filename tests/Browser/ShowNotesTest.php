@@ -20,7 +20,7 @@ class ShowNotesTest extends DuskTestCase
                     ->assertPathIs(path: '/dashboard')//Route Dashboard
                     ->clickLink(link: 'Notes')//Notes
                     ->assertPathIs(path: '/notes')//Route Notes
-                    ->clickLink(link: )//click Tittle
+                    ->clickLink(link:'alyadwrhh' )//click Tittle
                     ->assertPathIs(path: '/note/1');//memasuki halaman notes yang di buat
 
         });
